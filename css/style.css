@@ -1,0 +1,116 @@
+.button .button__icon{pointer-events:none}.button.loader .button__label{opacity:0}.media{vertical-align:top}.media__wrapper{position:relative;overflow:hidden;flex-grow:1;width:100%;height:100%}.media__item--embed>*{width:100%;height:100%}.media__item--svg>svg{width:100%!important;height:100%!important;fill:currentColor!important}.media--ratio{display:block!important}.media--ratio .media__wrapper{height:auto}.media--ratio .media__item{height:auto;position:absolute;top:0;left:0;width:100%;height:100%}.text__wrapper p:empty:after{white-space:pre;content:" "}body{overflow-x:hidden}:focus{outline:none}a{display:inline-block}.bg-gradient-to-c{background-image:radial-gradient(var(--tw-gradient-stops))}.bg-clip-text{-webkit-background-clip:text;color:transparent!important}.bg-clip-text *{background:inherit;color:transparent!important}.bg-image{position:relative}.bg-image>*{position:relative;z-index:2}.bg-image:before{content:"";background-image:var(--bg-image);background-repeat:inherit;background-size:inherit;background-position:inherit;opacity:var(--bg-image-opacity);position:absolute;top:0;left:0;right:0;bottom:0}
+.button .button__icon {
+	pointer-events: none
+}
+
+.button.loader .button__label {
+	opacity: 0
+}
+
+.media {
+	vertical-align: top
+}
+
+.media__wrapper {
+	position: relative;
+	overflow: hidden;
+	flex-grow: 1;
+	width: 100%;
+	height: 100%
+}
+
+.media__item--embed>* {
+	width: 100%;
+	height: 100%
+}
+
+.media__item--svg>svg {
+	width: 100% !important;
+	height: 100% !important;
+	fill: currentColor !important
+}
+
+.media--ratio {
+	display: block !important
+}
+
+.media--ratio .media__wrapper {
+	height: auto
+}
+
+.media--ratio .media__item {
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+.text__wrapper p:empty:after {
+	white-space: pre;
+	content: " "
+}
+
+body {
+	overflow-x: hidden
+}
+
+:focus {
+	outline: none
+}
+
+a {
+	display: inline-block
+}
+
+.bg-gradient-to-c {
+	background-image: radial-gradient(var(--tw-gradient-stops))
+}
+
+.bg-clip-text {
+	-webkit-background-clip: text;
+	color: transparent !important
+}
+
+.bg-clip-text * {
+	background: inherit;
+	color: transparent !important
+}
+
+.bg-image {
+	position: relative
+}
+
+.bg-image>* {
+	position: relative;
+	z-index: 2
+}
+
+.bg-image:before {
+	content: "";
+	background-image: var(--bg-image);
+	background-repeat: inherit;
+	background-size: inherit;
+	background-position: inherit;
+	opacity: var(--bg-image-opacity);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+.test:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background: rgba(255,255,255, 1);
+}
